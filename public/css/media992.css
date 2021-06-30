@@ -1,10 +1,4 @@
 @media (min-width:768px) {
-    .navbar-brand {
-        width: 40%;
-    }
-    .card-hardSkills {
-        max-width: 50rem!important;
-    }
     .link-github a,
     .link-linkedin a {
         align-self: center;
