@@ -1,0 +1,18 @@
+@media (min-width:768px) {
+    .qr-code-project,
+    .qr-code-rs {
+        visibility: visible;
+        width: 18%;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .qr-code-project-img,
+    .qr-code-github-img,
+    .qr-code-linkedin-img {
+        visibility: visible;
+        width: 100%;
+    }
+    .card-hardSkills {
+        max-width: 0rem;
+    }
+}

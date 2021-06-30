@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curicculum Vitae</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/css/media768.css">
+    <link rel="stylesheet" href="./public/css/media992.css">
+    <link rel="stylesheet" href="./public/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="bg-darkGrey">
+        <nav class="navbar container sm-col-12 md-col-10 lg-col-10 navbar-expand-lg navbar-light m-auto justify-content-around">
+            <a class="navbar-brand col-6" href="#">
+                <img src="./assets/pictures/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler col-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav text-center mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Me contacter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#AboutMe">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Skills">Mes Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="home col-12 m-auto pt-3" id="Accueil">
+        <div class="container sm-col-12 row md-col-10 m-auto">
+            <div class="picture col-4 m-auto">
+                <img src="./assets/pictures/pictureOfMe.png" alt="ma photo" />
+            </div>
+            <div class="presentation col-8 m-auto">
+                <h1 class="name-surname text-center darkGrey">NUNES Aurélie</h1>
+                <p class="text-presentation aquagreen text-center">Développeuse Web passionnée</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="container-contact bg-pink col-12 pt-3 pb-3" id="Contact">
+        <div class="contacts container sm-col-12 md-col-10">
+            <h2 class="darkGrey aboutMeTitle text-decoration-underline px-2">Me contacter</h2>
+            <div class="contact-phone d-flex darkgrey col-4 m-auto mb-2">
+                <img class="phone pe-2" src="./assets/fontawesome-free-5.15.3-web/svgs/solid/mobile-alt.svg" alt="icone smartphone">
+                <p class="phoneNumber col-12 mb-0">06 61 02 26 09</p>
+            </div>
+            <div class="contact-mail col-10 m-auto text-center">
+                <img class="mail" src="./assets/fontawesome-free-5.15.3-web/svgs/solid/envelope.svg" alt="icone mail">
+                <a class="text-decoration-none mailto darkGrey" href="mailto:aurelie.nunes.dev@gmail.com?subject=Demande d'informations">aurelie.nunes.dev@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="container-aboutMe bg-darkGrey pt-3 pb-3" id="AboutMe">
+        <div class="container sm-col-12 md-col-10">
+            <h2 class="pink aboutMeTitle text-decoration-underline px-2">A propos de moi</h2>
+            <p class="aboutMeText pink">Vous êtes à la recherche de votre nouvelle développeuse Web ? Je suis disponible pour échanger avec vous sur vos besoins, vos attentes et peut être pourrions nous avancer ensemble dans ce monde passionnant du développement !</p>
+            <div class="buttons text-center">
+                <a href="mailto:aurelie.nunes.dev@gmail.com?subject=Demande d'informations" class="button button-up bg-aquagreen white" target="_blank" id="person-email">M'envoyer un email</a>
+                <a href="./assets/pictures/cv.pdf" target="_blank" class="button button-up bg-aquagreen white" title="Télécharger mon CV">Télécharger mon CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="container-competences bg-pink pb-5 pt-5" id="Skills">
+        <div class="container container sm-col-12 md-col-12 lg-col-12 xl-col-10 xxl-col-10">
+            <h2 class="titleXp darkGrey text-decoration-underline px-2 pb-3">Mes Compétences</h2>
+            <div class="xp container sm-col-12 md-col-12 lg-col-12 xl-col-10 xxl-col-10">
+                <!-- Hard Skills -->
+                <h3 class="hardSkillsTitle aquagreen bg-white text-center col-10 m-auto mb-3">Savoirs faire</h3>
+                <div class="card card-hardSkills text-white container sm-col-12 md-col-12 lg-col-12 xl-col-10 xxl-col-10 mb-3 m-auto" style="max-width: 18rem;">
+                    <div class="card-header darkGrey text-center">HTML/CSS</div>
+                    <div class="card-body">
+                        <ul class="list-html-css">
+                            <li class="card-text darkGrey">Intégration d'une Maquette</li>
+                            <li class="card-text darkGrey">SEO et Accessibilité (AChecker)</li>
+                            <li class="card-text darkGrey">Définition de la structure de navigation de site ainsi que de leur cohérence graphique
+                            </li>
+                            <li class="card-text darkGrey">Création d'animations CSS</li>
+                            <li class="card-text darkGrey">Géstion de la responsivité de site</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card card-hardSkills text-white container sm-col-12 md-col-12 lg-col-12 xl-col-10 xxl-col-10 mb-3 m-auto" style="max-width: 18rem;">
+                    <div class="card-header darkGrey text-center">JAVASCRIPT</div>
+                    <div class="card-body">
+                        <ul class="list-js">
+                            <li class="card-text darkGrey">Création d'objets avec des méthodes et des propriétés</li>
+                            <li class="card-text darkGrey">Faire des requêtes HTTP</li>
+                            <li class="card-text darkGrey">Récupération des données de formulaires</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card card-hardSkills text-white container sm-col-12 md-col-12 lg-col-12 xl-col-10 xxl-col-10 mb-3 m-auto" style="max-width: 18rem;">
+                    <div class="card-header darkGrey text-center">PHP</div>
+                    <div class="card-body">
+                        <ul class="list-php">
+                            <li class="card-text darkGrey">Architecture Modèle Vue Controlleur</li>
+                            <li class="card-text darkGrey">Programmation en Orienté Objet</li>
+                            <li class="card-text darkGrey">Création de site de sa conception à sa livraison</li>
+                            <li class="card-text darkGrey">Analyse des données utilisées par les utilisateurs</li>
+                            <li class="card-text darkGrey">Récupérations des saisies de formulaires</li>
+                            <li class="card-text darkGrey">Sécurisation des applications</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card card-hardSkills text-white container sm-col-12 md-col-12 lg-col-12 xl-col-10 xxl-col-10 mb-3 m-auto" style="max-width: 18rem;">
+                    <div class="card-header darkGrey text-center">MySQL</div>
+                    <div class="card-body">
+                        <ul class="list-mySql">
+                            <li class="card-text darkGrey">Construction d'une base de données</li>
+                            <li class="card-text darkGrey"> Insertion, stockage, modification et récupération des données</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Soft Skills -->
+        <div class="container col-12 softSkills">
+            <h3 class="softSkillsTitle aquagreen bg-white text-center m-auto mb-3 col-10">Savoirs être</h3>
+            <div class="card card-hardSkills text-white container sm-col-12 md-col-12 lg-col-12 xl-col-10 xxl-col-10 mb-3 m-auto" style="max-width: 18rem;">
+                <div class="card-body col-12">
+                    <p class="card-text darkGrey">Curiosité intellectuelle</p>
+                    <p class="card-text darkGrey">Possède un bon sens de la créativité</p>
+                    <p class="card-text darkGrey">Excellente communication commerciale</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="container-myProjects bg-darkGrey col-12 pt-5 pb-5" id="Projects">
+        <div class="container sm-col-12 md-col-10 lg-col-8 lg-col-6 xl-col-6 xxl-col-6">
+            <h1 class="pink portfolioTitle text-decoration-underline px-2 pb-3">Mon Portfolio</h1>
+            <div class="card-project container sm-col-10 md-col-8 lg-col-6 xl-col-6 xxl-col-6 bg-white">
+                <div class="card-header card-header-project darkGrey text-center">Intégration de la maquette du site d'une agence web
+                </div>
+                <img class="card-img-top" src="./assets/pictures/p1.png" alt="Card image cap">
+                <div class="card-body text-center">
+                    <div class="title-technos">
+                        <h5 class="card-title aquagreen">La WebAgency</h5>
+                        <div class="technos">
+                            <img class="technos-img" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/html5.svg" alt="logo html">
+                            <img class="technos-img" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/css3-alt.svg" alt="logo css">
+                        </div>
+                    </div>
+                    <div class="overlay overlayBottom">
+                        <div class="overlay">
+                            <ul class="card-text ul-specificSkills white">
+                                <li class="specificSkills">Coder la structure d'une page web en HTML</li>
+                                <li class="specificSkills">Coder la présentation d'une page web en CSS</li>
+                                <li class="specificSkills">Définir le contenu d'une page web à partir d'une maquette</li>
+                                <li class="specificSkills">Gérer la responsivité avec les Media Queries</li>
+                            </ul>
+                            <div class="button-project text-center">
+                                <a href="http://aurelie-nunes.fr/" class="btn btn-project">Voir ce projet</a>
+                            </div>
+                            <div class="qr-code-project">
+                                <img class="qr-code-project-img" src="./assets/pictures/qrcode_aurelie-nunes.fr.png" alt="qr code">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-project container sm-col-10 md-col-8 lg-col-6 xl-col-6 xxl-col-6 bg-white">
+                <div class="card-header card-header-project darkGrey text-center">Création d'un site avec WordPress</div>
+                <img class="card-img-top" src="./assets/pictures/p2.png" alt="Card image cap">
+                <div class="card-body text-center">
+                    <div class="title-technos">
+                        <h5 class="card-title aquagreen">Office de Tourisme d'Ireki</h5>
+                    </div>
+                    <div class="technos">
+                        <img class="technos-img" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/wordpress.svg" alt="logo wordpress">
+                    </div>
+                    <div class="overlay overlayBottom">
+                        <div class="overlay">
+                            <ul class="card-text ul-specificSkills white">
+                                <li class="specificSkills">Adapter l'affichage en fonction de la taille de l'écran</li>
+                                <li class="specificSkills">Créer une animation avec CSS3</li>
+                                <li class="specificSkills">Assurer la cohérence graphique du site</li>
+                                <li class="specificSkills">Définir la structure de navigation du site</li>
+                                <li class="specificSkills">Appliquer les principes de SEO dans le code HTML</li>
+                                <li class="specificSkills">Assurer l'accessibilité du site aux différents types d'utilisateurs</li>
+                            </ul>
+                            <div class="button-project text-center">
+                                <a href="http://p2ireki.aurelie-nunes.fr/" class="btn btn-project">Voir ce projet</a>
+                            </div>
+                            <div class="qr-code-project">
+                                <img class="qr-code-project-img" src="./assets/pictures/qrcode_p2ireki.aurelie-nunes.fr.png" alt="qr code">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-project container sm-col-10 md-col-8 lg-col-6 xl-col-6 xxl-col-6 bg-white">
+                <div class="card-header card-header-project darkGrey text-center">Conception d'une carte interactive de location de vélos</div>
+                <img class="card-img-top" src="./assets/pictures/p3.png" alt="Card image cap">
+                <div class="card-body text-center">
+                    <div class="title-technos">
+                        <h5 class="card-title aquagreen">Toulouse En Roues Libres</h5>
+                    </div>
+                    <div class="technos">
+                        <img class="technos-img" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/js.svg" alt="logo Javascript">
+                    </div>
+                    <div class="overlay overlayBottom">
+                        <div class="overlay">
+                            <ul class="card-text ul-specificSkills white">
+                                <li class="specificSkills">Créer des objets simples en JavaScript, contenant des méthodes et des propriétés
+                                </li>
+                                <li class="specificSkills">Ecrire un code source lisible</li>
+                                <li class="specificSkills">Faire des requêtes HTTP en langage JavaScript</li>
+                                <li class="specificSkills">Récupérer des données de formulaires en utilisant le langage JavaScript</li>
+                            </ul>
+                            <div class="button-project text-center">
+                                <a href="http://p3-enroueslibres.aurelie-nunes.fr/" class="btn btn-project">Voir ce projet</a>
+                            </div>
+                            <div class="qr-code-project">
+                                <img class="qr-code-project-img" src="./assets/pictures/qrcode_p3-enroueslibres.aurelie-nunes.fr.png" alt="qr code">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-project container sm-col-10 md-col-8 lg-col-6 xl-col-6 xxl-col-6 bg-white">
+                <div class="card-header card-header-project darkGrey text-center">Création d'un blog pour un écrivain</div>
+                <img class="card-img-top" src="./assets/pictures/p4.png" alt="Card image cap">
+                <div class="card-body text-center">
+                    <div class="title-technos">
+                        <h5 class="card-title aquagreen">Jean Forteroche, le blog !</h5>
+                    </div>
+                    <div class="technos">
+                        <img class="technos-img-php" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/php.svg" alt="logo PHP">
+                        <img class="technos-img-mySql" src="assets/pictures/logo-mysql.png" alt="logo MySql">
+                    </div>
+                    <div class="overlay overlayBottom">
+                        <div class="overlay">
+                            <ul class="card-text ul-specificSkills white">
+                                <li class="specificSkills">Insérer, modifier, récupérer les données d’une base</li>
+                                <li class="specificSkills">Construire une base de données</li>
+                                <li class="specificSkills">Récupérer la saisie d’un formulaire utilisateur en langage PHP</li>
+                                <li class="specificSkills">Analyser les données utilisées par le site ou l’application</li>
+                                <li class="specificSkills">Organiser le code en langage PHP</li>
+                                <li class="specificSkills">Créer un site Internet, de sa conception à sa livraison</li>
+                            </ul>
+                            <div class="button-project text-center">
+                                <a href="http://p4-leblog.aurelie-nunes.fr/" class="btn btn-project">Voir ce projet</a>
+                            </div>
+                            <div class="qr-code-project">
+                                <img class="qr-code-project-img" src="./assets/pictures/qrcode_p4-leblog.aurelie-nunes.fr.png" alt="qr code">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-project container sm-col-10 md-col-8 lg-col-6 xl-col-6 xxl-col-6 bg-white">
+                <div class="card-header card-header-project darkGrey text-center pt-4">Création d'un 'Marketplace'</div>
+                <img class="card-img-top" src="assets/pictures/p5.png" alt="Card image cap">
+                <div class="card-body text-center">
+                    <div class="title-technos">
+                        <h5 class="card-title aquagreen">Mes P'tites Emplettes Narbonnaises</h5>
+                    </div>
+                    <div class="technos">
+                        <img class="technos-img" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/html5.svg" alt="logo HTML">
+                        <img class="technos-img" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/css3-alt.svg" alt="logo CSS">
+                        <img class="technos-img" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/js.svg" alt="logo JS">
+                        <img class="technos-img-php" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/php.svg" alt="logo PHP">
+                        <img class="technos-img-mySql" src="./assets/pictures/logo-mysql.png" alt="logo MySql">
+                    </div>
+                    <div class="overlay overlayBottom">
+                        <div class="overlay">
+                            <ul class="card-text ul-specificSkills white">
+                                <li class="specificSkills">PHP, JavaScript, HTML5 et CSS</li>
+                                <li class="specificSkills">Découper, assembler et programmer les pages</li>
+                                <li class="specificSkills">Organiser et manipuler les données</li>
+                                <li class="specificSkills">Organiser le code en langage PHP</li>
+                                <li class="specificSkills">Sécuriser l'application</li>
+                                <li class="specificSkills">Stocker et récupérer les informations dans la bdd en langage SQL
+                                </li>
+                            </ul>
+                            <div class="button-project text-center">
+                                <a href="http://p5-mesptitscommerces.aurelie-nunes.fr/" class="btn btn-project">Voir ce projet</a>
+                            </div>
+                            <div class="qr-code-project">
+                                <img class="qr-code-project-img" src="./assets/pictures/qrcode_p5-mesptitscommerces.aurelie-nunes.fr.png" alt="qr code">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="scrollToTop">
+        <a href="#top"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container-footer col-12 bg-pink pt-3 pb-3">
+        <div class="container sm-col-12 md-col-10">
+            <div class="div-footer text-center m-0 ps-0">
+                <div class="links d-flex justify-content-around">
+                    <div class="link-github justify-content-evenly col-5 d-flex m-auto">
+                        <img class="github" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/github-alt.svg" alt="logo Github">
+                        <a href="https://github.com/AurelieNunes" class="text-decoration-none darkGrey mb-0">Mon Github</a>
+                    </div>
+                    <div class="qr-code-rs">
+                        <img class="qr-code-github-img" src="./assets/pictures/qrcode_github.com.png" alt="qr code github">
+                    </div>
+
+                    <div class="link-linkedin justify-content-evenly col-5 d-flex m-auto">
+                        <img class="linkedin" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/linkedin.svg" alt="logo linkedin">
+                        <a href="https://www.linkedin.com/in/aur%C3%A9lie-nunes/" class="text-decoration-none darkGrey mb-0">Mon
+            LinkedIn</a>
+                    </div>
+                    <div class="qr-code-rs">
+                        <img class="qr-code-linkedin-img" src="./assets/pictures/qrcode_www.linkedin.com.png" alt="qr code linkedin">
+                    </div>
+                </div>
+                <div class="copyright pt-2">
+                    <p class="text-footer darkgrey m-0 p-0">Tous droits réservés</p>
+                    <p class="text-footer darkgrey m-0 p-0">Aurélie Nunes ©2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./public/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

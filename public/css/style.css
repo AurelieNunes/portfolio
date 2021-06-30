@@ -1,0 +1,352 @@
+/* CLASS */
+
+.text-center {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+.pink {
+    color: #edc3c5;
+}
+
+.aquagreen {
+    color: #00c2db;
+}
+
+.darkGrey {
+    color: #353535;
+}
+
+.bg-darkGrey {
+    background-color: #353535;
+}
+
+.bg-aquagreen {
+    background-color: #00c2db;
+}
+
+.bg-pink {
+    background-color: #edc3c5;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+@font-face {
+    font-family: "DancingScript";
+    src: url("/assets/fonts/static/DancingScript-Regular.ttf") format("woff2"), url("/assets/fonts/static/DancingScript-Bold.ttf") format("woff");
+}
+
+@font-face {
+    font-family: "Indie_Flower";
+    src: url("/assets/fonts/Indie_Flower/IndieFlower-Regular.ttf") format("woff2");
+}
+
+@font-face {
+    font-family: "YanoneKaffeesatz";
+    src: url("/assets/fonts/static/YanoneKaffeesatz-Medium.ttf");
+}
+
+@font-face {
+    font-family: "PatrickHand-Regular";
+    src: url("/assets/fonts/PatrickHand-Regular.ttf");
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+
+/***************************************/
+
+
+/* HEADER */
+
+
+/***************************************/
+
+.navbar-brand img {
+    width: 80%;
+    height: auto;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #edc3c5!important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(237,195,197)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(237, 195, 197) !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00c2cb!important;
+}
+
+
+/***************************************/
+
+
+/* HOME */
+
+
+/***************************************/
+
+.home {
+    background-image: url(../../assets/pictures/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.name-surname,
+.contact-phone,
+.mailto,
+.button-up {
+    font-family: "PatrickHand-Regular";
+}
+
+.text-presentation {
+    font-family: "DancingScript";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+/***************************************/
+
+
+/* CONTACT */
+
+
+/**************************************/
+
+.phone,
+.mail {
+    width: 20px;
+}
+
+.phoneNumber {
+    align-self: center;
+}
+
+.mailto:hover,
+.github,
+.linkedin {
+    color: #00c2cb;
+}
+
+
+/***************************************/
+
+
+/* ABOUT ME */
+
+
+/***************************************/
+
+.card-hardSkills {
+    box-shadow: 3px 3px #00c2db;
+}
+
+.aboutMeTitle,
+.titleXp,
+.portfolioTitle {
+    font-family: 'DancingScript';
+}
+
+.aboutMeText {
+    font-family: "PatrickHand-Regular";
+    padding: 20px;
+    text-align: justify;
+    font-size: 21px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+/***************************************/
+
+
+/* SKILLS */
+
+
+/***************************************/
+
+.hardSkillsTitle,
+.softSkillsTitle,
+.card-header {
+    border-radius: 50%;
+    font-family: 'YanoneKaffeesatz';
+    font-weight: bold;
+}
+
+.xp,
+.softSkills,
+.hardSkills {
+    margin-bottom: 20px;
+}
+
+
+/***************************************/
+
+
+/* PROJECTS */
+
+
+/***************************************/
+
+.card-project {
+    margin-bottom: 30px;
+}
+
+.card-project .card-header {
+    border: 3px solid #00c2db!important;
+    height: 80px;
+}
+
+.card-header-project {
+    font-size: 20px;
+}
+
+.technos-img {
+    width: 30px;
+}
+
+.technos-img-php,
+.technos-img-mySql {
+    width: 50px;
+}
+
+.btn-project {
+    background-color: #353535!important;
+    color: white!important;
+}
+
+.ul-specificSkills {
+    width: 90%;
+    text-align: justify;
+}
+
+.card-project {
+    position: relative;
+    width: 100%;
+}
+
+.qr-code-project,
+.qr-code-project-img {
+    visibility: hidden;
+    display: none;
+}
+
+
+/***************************************/
+
+
+/* SCROLL */
+
+
+/**************************************/
+
+#scrollToTop {
+    position: fixed;
+    width: 25px;
+    height: 52px;
+    bottom: 50px;
+    right: 60px;
+}
+
+#scrollToTop img {
+    width: 25px;
+}
+
+
+/***************************************/
+
+
+/* FOOTER */
+
+
+/***************************************/
+
+.github,
+.linkedin {
+    width: 20px;
+}
+
+.qr-code-rs,
+.qr-code-github-img,
+.qr-code-linkedin-img {
+    visibility: hidden;
+    display: none;
+}
+
+
+/***************************************/
+
+
+/** OVERLAY **/
+
+
+/***************************************/
+
+.overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+    background-color: #00c2db;
+    width: 100%;
+    bottom: 0;
+    height: 330px;
+}
+
+.card-project:hover .overlay {
+    opacity: 1;
+}
+
+.overlayBottom {
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    background-color: #00c2db;
+}
+
+.card-project:hover .overlayBottom {
+    height: 370px;
+    width: 100%;
+    right: 0px;
+}
