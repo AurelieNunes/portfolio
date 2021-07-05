@@ -1,0 +1,29 @@
+@media (min-width:1400px) {
+    .name-surname {
+        font-size: 75px;
+    }
+    .text-presentation {
+        font-size: 60px;
+    }
+    .aboutMeTitle,
+    .titleXp,
+    .portfolioTitle {
+        font-size: 38px;
+    }
+    .contact-phone,
+    .contact-mail,
+    .aboutMeText {
+        font-size: 27px;
+    }
+    .button-up,
+    .logo-link {
+        font-size: 22px;
+    }
+    .card-hardSkills-js,
+    .card-hardSkills-mySql {
+        margin-bottom: 0rem!important;
+    }
+    .navbar-nav {
+        font-size: 22px;
+    }
+}

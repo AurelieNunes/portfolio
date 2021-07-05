@@ -5,29 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curicculum Vitae</title>
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio Nunes Aurélie">
+    <!-- Meta Description -->
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="#" />
+    <meta property="og:image" content="#" />
+    <meta property="og:description" content="Vous recherchez votre nouvelle développeuse web ?" />
 
     <!-- CSS only -->
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="./public/css/media768.css">
     <link rel="stylesheet" href="./public/css/media992.css">
+    <link rel="stylesheet" href="./public/css/media1200.css">
+    <link rel="stylesheet" href="./public/css/media1400.css">
     <link rel="stylesheet" href="./public/bootstrap-5.0.2-dist/css/bootstrap.min.css">
 
 </head>
 
 <body>
     <!-- HEADER -->
-    <header class="bg-darkGrey">
+    <header id="top" class="bg-darkGrey col-12">
         <nav class="navbar col-md-10 navbar-expand-lg navbar-light m-auto justify-content-around">
-            <div class="container-fluid ">
-                <a class="navbar-brand  col-6 col-lg-4" href="#">
+            <div class="container-fluid col-md-12">
+                <a class="navbar-brand col-6 col-lg-3 text-center" href="#Accueil">
                     <img src="./assets/pictures/logo.png" alt="">
                 </a>
                 <button class="navbar-toggler col-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav text-center mr-auto">
+                <div class="navbar-collapse collapse col-lg-9 col-xxl-10" id="navbarSupportedContent">
+                    <ul class="navbar-nav font-ph-r text-center m-auto">
                         <li class="nav-item">
                             <a class="nav-link active" href="#Accueil">Accueil</a>
                         </li>
@@ -50,14 +64,14 @@
     </header>
 
     <!-- HOME -->
-    <section class="container-fluid home col-12 pt-3" id="Accueil">
-        <div class="row">
-            <div class="picture col-sm-3 col-4 m-auto">
+    <section id="Accueil" class="container-fluid home col-12 pt-5 pb-5">
+        <div class="row col-md-10 m-auto">
+            <div class="picture col-sm-3 col-4 col-lg-2 m-auto">
                 <img src="./assets/pictures/pictureOfMe.png" alt="ma photo" />
             </div>
-            <div class="presentation col-8 m-auto">
-                <h1 class="name-surname text-center darkGrey">NUNES Aurélie</h1>
-                <p class="text-presentation aquagreen text-center">Développeuse Web passionnée</p>
+            <div class="presentation col-7 m-auto">
+                <h1 class="name-surname font-ph-r text-center darkGrey">NUNES Aurélie</h1>
+                <p class="text-presentation aquagreen font-ds text-center">Développeuse Web passionnée</p>
             </div>
         </div>
     </section>
@@ -65,18 +79,18 @@
     <!-- CONTACT -->
     <section id="Contact" class="container-fluid bg-pink pt-3 pb-3">
         <div class="row">
-            <div class="col-12">
-                <h2 class="darkGrey aboutMeTitle text-decoration-underline ms-2">Me contacter</h2>
+            <div class="col-12 col-lg-10 col-xxl-8 m-auto">
+                <h2 class="darkGrey aboutMeTitle font-ds text-decoration-underline ms-2">Me contacter</h2>
             </div>
         </div>
         <div class="row">
-            <div class="contact-phone darkgrey m-auto text-center">
+            <div class="contact-phone darkgrey font-ph-r m-auto text-center col-lg-10 col-xxl-8">
                 <img class="phone pe-2" src="./assets/fontawesome-free-5.15.3-web/svgs/solid/mobile-alt.svg" alt="icone smartphone">
-                <a class="phoneNumber mb-0">06 61 02 26 09</a>
+                <a class="phoneNumber mb-0 text-decoration-none darkGrey">06 61 02 26 09</a>
             </div>
-            <div class="contact-mail m-auto text-center">
+            <div class="contact-mail m-auto text-center col-lg-10 col-xxl-8 m-auto">
                 <img class="mail" src="./assets/fontawesome-free-5.15.3-web/svgs/solid/envelope.svg" alt="icone mail">
-                <a class="text-decoration-none mailto darkGrey" href="mailto:aurelie.nunes.dev@gmail.com?subject=Demande d'informations">aurelie.nunes.dev@gmail.com</a>
+                <a class="text-decoration-none mailto font-ph-r darkGrey" href="mailto:aurelie.nunes.dev@gmail.com?subject=Demande d'informations">aurelie.nunes.dev@gmail.com</a>
             </div>
         </div>
     </section>
@@ -84,15 +98,15 @@
     <!-- ABOUT ME -->
     <section id="AboutMe" class="container-fluid bg-darkGrey pt-3 pb-3">
         <div class="row">
-            <h2 class="pink aboutMeTitle text-decoration-underline ms-2">A propos de moi</h2>
+            <h2 class="pink aboutMeTitle font-ds text-decoration-underline col-lg-10 col-xxl-8 m-auto ps-3">A propos de moi</h2>
         </div>
         <div class="row">
-            <p class="p-5 aboutMeText pink">Vous êtes à la recherche de votre nouvelle développeuse Web ? Je suis disponible pour échanger avec vous sur vos besoins, vos attentes et peut être pourrions nous avancer ensemble dans ce monde passionnant du développement !</p>
+            <p class="p-5 aboutMeText font-ph-r pink col-lg-10 col-xxl-8 m-auto">Vous êtes à la recherche de votre nouvelle développeuse Web ? Je suis disponible pour échanger avec vous sur vos besoins, vos attentes et peut être pourrions nous avancer ensemble dans ce monde passionnant du développement !</p>
         </div>
         <div class="row">
-            <div class="buttons text-center">
-                <a href="mailto:aurelie.nunes.dev@gmail.com?subject=Demande d'informations" class="button button-up bg-aquagreen white" target="_blank" id="person-email">M'envoyer un email</a>
-                <a href="./assets/pictures/cv.pdf" target="_blank" class="button button-up bg-aquagreen white" title="Télécharger mon CV">Télécharger mon CV</a>
+            <div class="buttons text-center col-lg-10 col-xxl-8 m-auto">
+                <a href="mailto:aurelie.nunes.dev@gmail.com?subject=Demande d'informations" class="button button-up font-ph-r bg-aquagreen white" target="_blank" id="person-email">M'envoyer un email</a>
+                <a href="./assets/pictures/cv.pdf" target="_blank" class="button button-up font-ph-r bg-aquagreen white" title="Télécharger mon CV">Télécharger mon CV</a>
             </div>
         </div>
     </section>
@@ -100,79 +114,83 @@
     <!-- SKILLS -->
     <section id="Skills" class="container-fluid bg-pink pt-3 pb-3">
         <div class="row">
-            <div class="col-12">
-                <h2 class="titleXp darkGrey text-decoration-underline pb-3 ms-2">Mes Compétences</h2>
+            <div class="col-12 col-lg-10 col-xxl-8 m-auto">
+                <h2 class="titleXp font-ds darkGrey text-decoration-underline pb-3 ms-2">Mes Compétences</h2>
             </div>
         </div>
         <div class="row mb-3">
             <!-- Hard Skills -->
             <div class="col-12 text-center">
-                <h3 class="d-inline text-wrap hardSkillsTitle aquagreen bg-white text-center col-10 m-auto mb-3 p-2">Savoirs faire</h3>
+                <h3 class="d-inline text-wrap hardSkillsTitle font-yk aquagreen bg-white text-center col-10 col-xl-8 m-auto ps-4 pe-4 pt-2 pb-2">
+                    Savoirs faire</h3>
             </div>
         </div>
         <div class="row">
-            <div class="card card-hardSkills text-white col-10 mb-3 m-auto">
-                <div class="card-header darkGrey text-center">HTML/CSS</div>
-                <div class="card-body">
-                    <ul class="list-html-css">
-                        <li class="card-text darkGrey">Intégration d'une Maquette</li>
-                        <li class="card-text darkGrey">SEO et Accessibilité (AChecker)</li>
-                        <li class="card-text darkGrey">Définition de la structure de navigation de site ainsi que de leur cohérence graphique
-                        </li>
-                        <li class="card-text darkGrey">Création d'animations CSS</li>
-                        <li class="card-text darkGrey">Géstion de la responsivité de site</li>
-                    </ul>
+            <div class="cards-skills col-xl-8 m-auto d-flex flex-wrap text-white">
+                <div class="card card-hardSkills-html col-10 col-lg-7 col-xxl-5 mb-3 m-auto">
+                    <div class="card-header font-yk darkGrey text-center">HTML/CSS</div>
+                    <div class="card-body">
+                        <ul class="list-html-css">
+                            <li class="card-text darkGrey">Intégration d'une Maquette</li>
+                            <li class="card-text darkGrey">SEO et Accessibilité (AChecker)</li>
+                            <li class="card-text darkGrey">Définition de la structure de navigation de site ainsi que de leur cohérence graphique
+                            </li>
+                            <li class="card-text darkGrey">Création d'animations CSS</li>
+                            <li class="card-text darkGrey">Géstion de la responsivité de site</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card card-hardSkills text-white col-10 mb-3 m-auto">
-                <div class="card-header darkGrey text-center">JAVASCRIPT</div>
-                <div class="card-body">
-                    <ul class="list-js">
-                        <li class="card-text darkGrey">Création d'objets avec des méthodes et des propriétés</li>
-                        <li class="card-text darkGrey">Faire des requêtes HTTP</li>
-                        <li class="card-text darkGrey">Récupération des données de formulaires</li>
-                    </ul>
+                <div class="card card-hardSkills-js text-white col-10 col-lg-7 col-xxl-5 mb-3 m-auto">
+                    <div class="card-header font-yk darkGrey text-center">JAVASCRIPT</div>
+                    <div class="card-body">
+                        <ul class="list-js">
+                            <li class="card-text darkGrey">Création d'objets avec des méthodes et des propriétés</li>
+                            <li class="card-text darkGrey">Faire des requêtes HTTP</li>
+                            <li class="card-text darkGrey">Récupération des données de formulaires</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card card-hardSkills text-white col-10 mb-3 m-auto">
-                <div class="card-header darkGrey text-center">PHP</div>
-                <div class="card-body">
-                    <ul class="list-php">
-                        <li class="card-text darkGrey">Architecture Modèle Vue Controlleur</li>
-                        <li class="card-text darkGrey">Programmation en Orienté Objet</li>
-                        <li class="card-text darkGrey">Création de site de sa conception à sa livraison</li>
-                        <li class="card-text darkGrey">Analyse des données utilisées par les utilisateurs</li>
-                        <li class="card-text darkGrey">Récupérations des saisies de formulaires</li>
-                        <li class="card-text darkGrey">Sécurisation des applications</li>
-                    </ul>
+                <div class="card card-hardSkills-php text-white col-10 col-lg-7 col-xxl-5 mb-3 m-auto">
+                    <div class="card-header font-yk darkGrey text-center">PHP</div>
+                    <div class="card-body">
+                        <ul class="list-php">
+                            <li class="card-text darkGrey">Architecture Modèle Vue Controlleur</li>
+                            <li class="card-text darkGrey">Programmation en Orienté Objet</li>
+                            <li class="card-text darkGrey">Création de site de sa conception à sa livraison</li>
+                            <li class="card-text darkGrey">Analyse des données utilisées par les utilisateurs</li>
+                            <li class="card-text darkGrey">Récupérations des saisies de formulaires</li>
+                            <li class="card-text darkGrey">Sécurisation des applications</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card card-hardSkills text-white container col-10 mb-3 m-auto">
-                <div class="card-header darkGrey text-center">MySQL</div>
-                <div class="card-body">
-                    <ul class="list-mySql">
-                        <li class="card-text darkGrey">Construction d'une base de données</li>
-                        <li class="card-text darkGrey"> Insertion, stockage, modification et récupération des données</li>
-                    </ul>
+                <div class="card card-hardSkills-mySql text-white container col-10 col-lg-7 col-xxl-5 mb-3 m-auto">
+                    <div class="card-header font-yk darkGrey text-center">MySQL</div>
+                    <div class="card-body">
+                        <ul class="list-mySql">
+                            <li class="card-text darkGrey">Construction d'une base de données</li>
+                            <li class="card-text darkGrey"> Insertion, stockage, modification et récupération des données
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
 
         <!-- Soft Skills -->
-        <div class="row mt-3">
-            <div class="col-12 text-center">
-                <h3 class="d-inline text-wrap softSkillsTitle aquagreen bg-white text-center m-auto mb-3 col-10 p-2">Savoirs être</h3>
+        <div class="mt-3">
+            <div class="col-12 col-lg-10 m-auto text-center">
+                <h3 class="d-inline text-wrap softSkillsTitle font-yk aquagreen bg-white text-center m-auto col-10 col-xl-8 ps-4 pe-4 pt-2 pb-2">
+                    Savoirs être</h3>
             </div>
-            <div class="row mt-3">
-                <div class="card card-hardSkills text-white col-10 mb-3 m-auto">
+            <div class="mt-3">
+                <div class="card card-hardSkills text-white col-10 col-lg-7 col-xl-4 mb-3 m-auto">
                     <div class="card-body">
-                        <p class="card-text darkGrey">Curiosité intellectuelle</p>
-                        <p class="card-text darkGrey">Possède un bon sens de la créativité</p>
-                        <p class="card-text darkGrey">Excellente communication commerciale</p>
+                        <p class="card-text darkGrey text-center">Curiosité intellectuelle</p>
+                        <p class="card-text darkGrey text-center">Possède un bon sens de la créativité</p>
+                        <p class="card-text darkGrey text-center">Excellente communication commerciale</p>
                     </div>
                 </div>
             </div>
@@ -182,14 +200,15 @@
     <!-- PROJECTS -->
     <section id="Projects" class="container-fluid bg-darkGrey col-12 pt-5 pb-5">
         <div class="row">
-            <div class="col-12">
-                <h1 class="pink portfolioTitle text-decoration-underline px-2 pb-3">Mon Portfolio</h1>
+            <div class="col-12 col-lg-10 col-xxl-8 m-auto">
+                <h1 class="pink portfolioTitle font-ds text-decoration-underline px-2 pb-3">Mon Portfolio</h1>
             </div>
         </div>
         <div class="row m-auto">
-            <div class=" col-12 d-flex flex-wrap justify-content-around">
+            <div class=" col-12 col-xl-8 m-auto d-flex flex-wrap justify-content-around">
                 <div class="card-project col-sm-10 col-md-5 bg-white">
-                    <div class="card-header card-header-project darkGrey text-center">Intégration de la maquette du site d'une agence web
+                    <div class="card-header card-header-project darkGrey d-flex">
+                        <h2 class="align-self-center m-auto text-center fs18">Intégration de la maquette du site d'une agence web</h2>
                     </div>
                     <img class="portfolio card-img-top" src="./assets/pictures/p1.jpg" alt="Card image cap">
                     <div class="card-body text-center">
@@ -205,7 +224,8 @@
                                 <ul class="card-text ul-specificSkills white">
                                     <li class="specificSkills">Coder la structure d'une page web en HTML</li>
                                     <li class="specificSkills">Coder la présentation d'une page web en CSS</li>
-                                    <li class="specificSkills">Définir le contenu d'une page web à partir d'une maquette</li>
+                                    <li class="specificSkills">Définir le contenu d'une page web à partir d'une maquette
+                                    </li>
                                     <li class="specificSkills">Gérer la responsivité avec les Media Queries</li>
                                 </ul>
                                 <div class="button-project text-center">
@@ -220,7 +240,9 @@
                 </div>
 
                 <div class="card-project col-sm-10 col-md-5 bg-white">
-                    <div class="card-header card-header-project darkGrey text-center">Création d'un site avec WordPress</div>
+                    <div class="card-header card-header-project darkGrey d-flex">
+                        <h2 class="align-self-center text-center m-auto fs18">Création d'un site avec WordPress </h2>
+                    </div>
                     <img class="card-img-top" src="./assets/pictures/p2.jpg" alt="Card image cap">
                     <div class="card-body text-center">
                         <div class="title-technos">
@@ -232,14 +254,16 @@
                         <div class="overlay overlayBottom">
                             <div class="overlay">
                                 <ul class="card-text ul-specificSkills white">
-                                    <li class="specificSkills">Adapter l'affichage en fonction de la taille de l'écran</li>
+                                    <li class="specificSkills">Adapter l'affichage en fonction de la taille de l'écran
+                                    </li>
                                     <li class="specificSkills">Créer une animation avec CSS3</li>
                                     <li class="specificSkills">Assurer la cohérence graphique du site</li>
                                     <li class="specificSkills">Définir la structure de navigation du site</li>
                                     <li class="specificSkills">Appliquer les principes de SEO dans le code HTML</li>
                                 </ul>
                                 <div class="button-project text-center">
-                                    <a href="http://p2ireki.aurelie-nunes.fr/" class="btn btn-project">Voir ce projet</a>
+                                    <a href="http://p2ireki.aurelie-nunes.fr/" class="btn btn-project">Voir ce
+                                        projet</a>
                                 </div>
                                 <div class="qr-code-project">
                                     <img class="qr-code-project-img" src="./assets/pictures/qrcode_p2ireki.aurelie-nunes.fr.png" alt="qr code">
@@ -250,7 +274,9 @@
                 </div>
 
                 <div class="card-project col-sm-10 col-md-5 bg-white">
-                    <div class="card-header card-header-project darkGrey text-center">Conception d'une carte interactive de location de vélos</div>
+                    <div class="card-header card-header-project darkGrey d-flex">
+                        <h2 class="align-self-center text-center m-auto fs18">Conception d'une carte interactive de location de vélos</h2>
+                    </div>
                     <img class="card-img-top" src="./assets/pictures/p3.jpg" alt="Card image cap">
                     <div class="card-body text-center">
                         <div class="title-technos">
@@ -269,7 +295,8 @@
                                     <li class="specificSkills">Récupérer des données de formulaires en utilisant le langage JavaScript</li>
                                 </ul>
                                 <div class="button-project text-center">
-                                    <a href="http://p3-enroueslibres.aurelie-nunes.fr/" class="btn btn-project">Voir ce projet</a>
+                                    <a href="http://p3-enroueslibres.aurelie-nunes.fr/" class="btn btn-project">Voir ce
+                                        projet</a>
                                 </div>
                                 <div class="qr-code-project">
                                     <img class="qr-code-project-img" src="./assets/pictures/qrcode_p3-enroueslibres.aurelie-nunes.fr.png" alt="qr code">
@@ -280,7 +307,9 @@
                 </div>
 
                 <div class="card-project col-sm-10 col-md-5 bg-white">
-                    <div class="card-header card-header-project darkGrey text-center">Création d'un blog pour un écrivain</div>
+                    <div class="card-header card-header-project darkGrey d-flex">
+                        <h2 class="align-self-center text-center m-auto fs18">Création d'un blog pour un écrivain</h2>
+                    </div>
                     <img class="card-img-top" src="./assets/pictures/p4.jpg" alt="Card image cap">
                     <div class="card-body text-center">
                         <div class="title-technos">
@@ -293,13 +322,15 @@
                         <div class="overlay overlayBottom">
                             <div class="overlay">
                                 <ul class="card-text ul-specificSkills white">
-                                    <li class="specificSkills">Créer un site Internet, de sa conception à sa livraison</li>
+                                    <li class="specificSkills">Créer un site Internet, de sa conception à sa livraison
+                                    </li>
                                     <li class="specificSkills">Insérer, modifier, récupérer les données d’une base</li>
                                     <li class="specificSkills">Construire une base de données</li>
                                     <li class="specificSkills">Récupérer la saisie d’un formulaire utilisateur en langage PHP</li>
                                 </ul>
                                 <div class="button-project text-center">
-                                    <a href="http://p4-leblog.aurelie-nunes.fr/" class="btn btn-project">Voir ce projet</a>
+                                    <a href="http://p4-leblog.aurelie-nunes.fr/" class="btn btn-project">Voir ce
+                                        projet</a>
                                 </div>
                                 <div class="qr-code-project">
                                     <img class="qr-code-project-img" src="./assets/pictures/qrcode_p4-leblog.aurelie-nunes.fr.png" alt="qr code">
@@ -310,7 +341,9 @@
                 </div>
 
                 <div class="card-project col-sm-10 col-md-5 bg-white">
-                    <div class="card-header card-header-project darkGrey text-center">Création d'un 'Marketplace'</div>
+                    <div class="card-header card-header-project darkGrey d-flex">
+                        <h2 class="align-self-center text-center m-auto fs18">Création d'un 'Marketplace'</h2>
+                    </div>
                     <img class="card-img-top" src="assets/pictures/p5.jpg" alt="Card image cap">
                     <div class="card-body text-center">
                         <div class="title-technos">
@@ -334,7 +367,8 @@
                                     </li>
                                 </ul>
                                 <div class="button-project text-center">
-                                    <a href="http://p5-mesptitscommerces.aurelie-nunes.fr/" class="btn btn-project">Voir ce projet</a>
+                                    <a href="http://p5-mesptitscommerces.aurelie-nunes.fr/" class="btn btn-project">Voir
+                                        ce projet</a>
                                 </div>
                                 <div class="qr-code-project">
                                     <img class="qr-code-project-img" src="./assets/pictures/qrcode_p5-mesptitscommerces.aurelie-nunes.fr.png" alt="qr code">
@@ -344,105 +378,43 @@
                     </div>
                 </div>
             </div>
-    </section>
-    <!-- <section class="content-section bg-darkGrey" id="portfolio">
-        <div class="container px-4 px-lg-5">
-            <div class="content-section-heading">
-                <h1 class="pink portfolioTitle text-decoration-underline ms-2 pt-3 pb-3">Mon Portfolio</h1>
-            </div>
-            <div class="row gx-0">
-                <div class="col-lg-6 p-lg-2 project mb-3">
-                    <a class="portfolio-item" href="http://aurelie-nunes.fr/">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">La WebAgency</div>
-                                <p class="mb-0">Intégration de la maquette du site d'une agence web</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/pictures/p1.jpg" alt="Aperçu site" />
-                    </a>
-                </div>
-                <div class="col-lg-6 p-lg-2 project mb-3">
-                    <a class="portfolio-item" href="http://p2ireki.aurelie-nunes.fr/">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Office de Tourisme d'Ireki</div>
-                                <p class="mb-0">Création d'un site avec WordPress</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/pictures/p2.jpg" alt="Aperçu site" />
-                    </a>
-                </div>
-                <div class="col-lg-6 p-lg-2 project  mb-3">
-                    <a class="portfolio-item" href="http://p3-enroueslibres.aurelie-nunes.fr/">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Toulouse En Roues Libres</div>
-                                <p class="mb-0">Conception d'une carte interactive de location de vélos</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/pictures/p3.jpg" alt="Aperçu site" />
-                    </a>
-                </div>
-                <div class="col-lg-6 p-lg-2 project  mb-3">
-                    <a class="portfolio-item" href="http://p4-leblog.aurelie-nunes.fr/">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Jean Forteroche, le blog !</div>
-                                <p class="mb-0">Création d'un blog pour un écrivain</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/pictures/p4.jpg" alt="Aperçu site" />
-                    </a>
-                </div>
-                <div class="col-lg-6 p-lg-2 project  mb-3">
-                    <a class="portfolio-item" href="http://p5-mesptitscommerces.aurelie-nunes.fr/">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Mes P'tites Emplettes Narbonnaises</div>
-                                <p class="mb-0">Création d'un 'Marketplace'</p>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="assets/pictures/p5.jpg" alt="Aperçu site" />
-                    </a>
-                </div>
-            </div>
         </div>
     </section>
 
-
-
-
-
     <div id="scrollToTop">
-        <a href="#top">
-            <i class="bi bi-arrow-up-circle-fill">
-                <img src="./assets/pictures/arrow-up-circle-fill.svg" alt="arrow up">
-            </i>
-        </a>
-    </div>*/
+        <a href="#top"><img src="./assets/pictures/arrow-up-circle-fill.svg"></a>
+    </div>
 
-    <!-FOOTER -->
+
+
+    <!-- FOOTER -->
     <footer class="container-fluid bg-pink pt-3 pb-3">
         <div class="row">
-            <div class="div-footer col-12 col-md-10 text-center m-0 ps-0">
+            <div class="div-footer col-12 col-md-10 text-center m-auto ps-0">
                 <div class="links d-flex justify-content-around">
-                    <div class="link-github justify-content-evenly col-5 d-flex m-auto">
-                        <img class="github" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/github-alt.svg" alt="logo Github">
-                        <a href="https://github.com/AurelieNunes" class="text-decoration-none darkGrey mb-0">Mon Github</a>
-                    </div>
-                    <div class="qr-code-rs">
-                        <img class="qr-code-github-img" src="./assets/pictures/qrcode_github.com.png" alt="qr code github">
+                    <div class="link-github justify-content-evenly flex-column col-5 d-flex m-auto">
+                        <div class="logo-link">
+                            <img class="github" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/github-square.svg" alt="logo Github">
+                            <a href="https://github.com/AurelieNunes" class="text-decoration-none darkGrey mb-0">Mon
+                            Github</a>
+                        </div>
+                        <div class="qr-code-rs">
+                            <img class="qr-code-github-img" src="./assets/pictures/qrcode_github.com.png" alt="qr code github">
+                        </div>
                     </div>
 
-                    <div class="link-linkedin justify-content-evenly col-5 d-flex m-auto">
-                        <img class="linkedin" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/linkedin.svg" alt="logo linkedin">
-                        <a href="https://www.linkedin.com/in/aur%C3%A9lie-nunes/" class="text-decoration-none darkGrey mb-0">Mon
-            LinkedIn</a>
+
+                    <div class="link-linkedin justify-content-evenly flex-column col-5 d-flex m-auto">
+                        <div class="logo-link">
+                            <img class="linkedin" src="./assets/fontawesome-free-5.15.3-web/svgs/brands/linkedin.svg" alt="logo linkedin">
+                            <a href="https://www.linkedin.com/in/aur%C3%A9lie-nunes/" class="text-decoration-none darkGrey mb-0">Mon
+                            LinkedIn</a>
+                            <div class="qr-code-rs">
+                                <img class="qr-code-linkedin-img" src="./assets/pictures/qrcode_www.linkedin.com.png" alt="qr code linkedin">
+                            </div>
+                        </div>
                     </div>
-                    <div class="qr-code-rs">
-                        <img class="qr-code-linkedin-img" src="./assets/pictures/qrcode_www.linkedin.com.png" alt="qr code linkedin">
-                    </div>
+
                 </div>
                 <div class="copyright pt-2">
                     <p class="text-footer darkgrey m-0 p-0">Tous droits réservés</p>
@@ -453,7 +425,6 @@
     </footer>
 
     <script src="./public/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
-    <script src="./public/js/script.js"></script>
 </body>
 
 </html>

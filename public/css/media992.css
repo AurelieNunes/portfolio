@@ -1,6 +1,14 @@
-@media (min-width:768px) {
-    .link-github a,
-    .link-linkedin a {
-        align-self: center;
+@media (min-width:992px) {
+    #Projects .card-header h2,
+    .contact-phone,
+    .contact-mail {
+        font-size: 20px;
+    }
+    .qr-code-project,
+    .qr-code-project-img,
+    .qr-code-rs,
+    .qr-code-github-img,
+    .qr-code-linkedin-img {
+        width: 60%;
     }
 }

@@ -1,15 +1,26 @@
 @media (min-width:768px) {
-    .qr-code-project,
-    .qr-code-rs {
-        visibility: visible;
-        width: 18%;
-        margin: auto;
-        margin-top: 5px;
+    .name-surname {
+        font-size: 50px;
     }
+    .text-presentation {
+        font-size: 32px;
+    }
+    .link-github a,
+    .link-linkedin a {
+        align-self: center;
+    }
+    .overlay {
+        height: 385px;
+    }
+    .qr-code-project,
     .qr-code-project-img,
+    .qr-code-rs,
     .qr-code-github-img,
     .qr-code-linkedin-img {
         visibility: visible;
-        width: 100%;
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-top: 5px;
     }
 }

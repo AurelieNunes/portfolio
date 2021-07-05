@@ -56,17 +56,33 @@
     src: url("/assets/fonts/PatrickHand-Regular.ttf");
 }
 
-
-/* 
-html {
-    width: 100%;
+.font-ds {
+    font-family: "DancingScript";
 }
 
-body {
-    width: 100%;
-    height: auto;
-    margin: 0;
-} */
+.font-yk {
+    font-family: "YanoneKaffeesatz";
+}
+
+.font-ph-r {
+    font-family: "PatrickHand-Regular";
+}
+
+.font-if {
+    font-family: "Indie_Flower";
+}
+
+.fs18 {
+    font-size: 18px;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+.fs22 {
+    font-size: 22px;
+}
 
 
 /***************************************/
@@ -107,6 +123,10 @@ body {
     color: #00c2cb!important;
 }
 
+header a:hover {
+    border-bottom: solid #edc3c5;
+}
+
 
 /***************************************/
 
@@ -127,15 +147,8 @@ body {
     border-radius: 50px;
 }
 
-.name-surname,
-.contact-phone,
-.mailto,
-.button-up {
-    font-family: "PatrickHand-Regular";
-}
-
 .text-presentation {
-    font-family: "DancingScript";
+    /* font-family: "DancingScript"; */
     font-weight: bold;
     font-size: 24px;
 }
@@ -158,9 +171,11 @@ body {
     align-self: center;
 }
 
-.mailto:hover,
-.github,
-.linkedin {
+.phoneNumber:hover {
+    color: unset;
+}
+
+.mailto:hover {
     color: #00c2cb;
 }
 
@@ -177,14 +192,7 @@ body {
     box-shadow: 3px 3px #00c2db;
 }
 
-.aboutMeTitle,
-.titleXp,
-.portfolioTitle {
-    font-family: 'DancingScript';
-}
-
 .aboutMeText {
-    font-family: "PatrickHand-Regular";
     padding: 20px;
     text-align: justify;
     font-size: 21px;
@@ -213,7 +221,6 @@ body {
 .softSkillsTitle,
 .card-header {
     border-radius: 50%;
-    font-family: 'YanoneKaffeesatz';
     font-weight: bold;
 }
 
@@ -315,42 +322,9 @@ body {
     margin: auto;
 }
 
-
-/* @media (min-width: 576px) {
-    .portfolio-item {
-        max-width: none;
-        margin: 0;
-    }
-    .portfolio-item .caption {
-        transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-        transition: clip-path 0.25s ease-out, background-color 0.7s;
-        transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-        -webkit-clip-path: inset(0px);
-        clip-path: inset(0px);
-    }
-    .portfolio-item .caption .caption-content {
-        transition: opacity 0.25s;
-        margin-left: 5rem;
-        margin-right: 5rem;
-        margin-bottom: 5rem;
-    }
-    .portfolio-item img {
-        transition: -webkit-clip-path 0.25s ease-out;
-        transition: clip-path 0.25s ease-out;
-        transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-        -webkit-clip-path: inset(-1px);
-        clip-path: inset(-1px);
-    }
-    .portfolio-item:hover img {
-        -webkit-clip-path: inset(2rem);
-        clip-path: inset(2rem);
-    }
-    .portfolio-item:hover .caption {
-        background-color: rgba(29, 128, 159, 0.9);
-        -webkit-clip-path: inset(2rem);
-        clip-path: inset(2rem);
-    }
-} */
+.overlay {
+    right: 0;
+}
 
 
 /***************************************/
@@ -364,9 +338,9 @@ body {
 #scrollToTop {
     position: fixed;
     width: 25px;
-    height: 52px;
-    bottom: 50px;
-    right: 60px;
+    height: 25px;
+    bottom: 14px;
+    right: 6px;
 }
 
 #scrollToTop img {
@@ -381,6 +355,10 @@ body {
 
 
 /***************************************/
+
+.logo-link a:hover {
+    color: #00c2cb;
+}
 
 .github,
 .linkedin {
