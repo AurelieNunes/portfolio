@@ -123,8 +123,13 @@
     color: #00c2cb!important;
 }
 
-header a:hover {
-    border-bottom: solid #edc3c5;
+header .nav-link:hover {
+    border-bottom: solid 1px #edc3c5;
+}
+
+header .nav-link {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
 }
 
 
@@ -148,7 +153,6 @@ header a:hover {
 }
 
 .text-presentation {
-    /* font-family: "DancingScript"; */
     font-weight: bold;
     font-size: 24px;
 }
@@ -188,7 +192,11 @@ header a:hover {
 
 /***************************************/
 
-.card-hardSkills {
+.card-hardSkills,
+.card-hardSkills-mySql,
+.card-hardSkills-php,
+.card-hardSkills-js,
+.card-hardSkills-html {
     box-shadow: 3px 3px #00c2db;
 }
 
@@ -218,7 +226,11 @@ header a:hover {
 /***************************************/
 
 .hardSkillsTitle,
-.softSkillsTitle,
+.softSkillsTitle {
+    font-style: oblique;
+    font-size: 40px;
+}
+
 .card-header {
     border-radius: 50%;
     font-weight: bold;
@@ -399,7 +411,6 @@ header a:hover {
     width: 100%;
     height: 0;
     bottom: 0;
-    background-color: #00c2db;
 }
 
 .card-project:hover .overlayBottom {
